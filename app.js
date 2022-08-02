@@ -34,6 +34,11 @@ testAge();
 
 function welcomeMessage (){
     var testWelcome = confirm("welcome to our website");
+    if (testWelcome == true) {
+        text = "Thanks for continuing  ";
+      } else {
+        text = "done skip";
+      };
 }
 welcomeMessage ();
 
